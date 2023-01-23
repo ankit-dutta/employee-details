@@ -1,9 +1,10 @@
 import {  useEffect, useState } from "react";
-import {  useParams } from "react-router-dom"
+import {  useNavigate, useParams } from "react-router-dom"
 import './UserDetail.css';
 
 const UserDetail = (props) =>{
 
+    const navigate = useNavigate()
     const {id} = useParams(); //using params to get the id number
 
     const [userdetail, setUserDetail] = useState([])
@@ -33,12 +34,14 @@ const UserDetail = (props) =>{
 
     },[])
 
-
+const backbtnHandler =() =>{
+  navigate('/employee-details')
+}
 
     return (
         <>
-         
          <div className="profile-container">
+         <button className="back-btn" onClick={backbtnHandler}>Back</button>
 
             {/* HEADING SECTION START */}
             <div className="profile-heading">
