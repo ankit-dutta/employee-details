@@ -14,7 +14,7 @@ import Home from './component/Home';
         {/* USING ROUTES FOR NAVIGATE  */}
         <Routes>
 
-          <Route path='/' element = { <Home />} />
+          <Route path='/employee-details' element = { <Home />} />
 
           <Route path='/users' element = { <Home />} />
 
