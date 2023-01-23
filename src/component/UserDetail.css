@@ -1,0 +1,63 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+  border: 2px solid gray;
+}
+
+.profile-container{
+    margin-top: 5rem;
+    padding: 15px;
+
+    /* border: 1px solid black; */
+
+}
+
+.profile-heading{
+    padding: 8px;
+
+}
+.profile-heading span{
+    color: rgb(241, 82, 82);
+}
+
+.user-about-section{
+   border-radius: 15px;
+    background-color: rgb(165, 160, 160);
+    box-shadow: rgba(0, 4, 7, 0.425) 0px 8px 24px;
+}
+
+
+.description{
+    padding: 15px;
+    margin-top: 3rem;
+
+    /* border: 1px solid green; */
+}
+.description h3{
+    padding: 5px;
+    /* float: left; */
+   color: #000;
+
+}
+.description p{
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  letter-spacing: 0.3px;
+}
+
+.personal-detail{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.personal-detail h3{
+    font-size: 20px;
+    color: #000;
+}
+
+.personal-detail p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
